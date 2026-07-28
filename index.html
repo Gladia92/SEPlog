@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="auto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>XYVEL MS</title>
+    <link rel="icon" type="image/png" href="./icon.png" />
+    <!-- Anti-flash langue : pose <html lang> avant le premier rendu React.
+         Miroir localStorage écrit par setLang/detectLang (i18n/LanguageContext). -->
+    <script>
+      try {
+        var l = localStorage.getItem("seplog-lang");
+        if (l) document.documentElement.lang = l === "zh" ? "zh-CN" : l;
+      } catch (e) {}
+    </script>
+    <!-- Tabler Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css"
+    />
+    <script type="module" crossorigin src="./assets/index-7cls87Ym.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CBnO91KR.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
